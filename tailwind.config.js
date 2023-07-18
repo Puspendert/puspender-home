@@ -15,6 +15,9 @@ module.exports = {
       fontFamily: {
         pompiere: ["Pompiere"],
       },
+      backgroundImage: {
+        wave: "url(../public/wave.png)",
+      },
     },
   },
   plugins: [],

@@ -1,7 +1,9 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
-    <main className="p-8">
-      <section className="flex flex-col items-center justify-center font-pompiere min-h-screen scroll-my-1">
+    <main className="p-8 bg-wave bg-fixed bg-no-repeat bg-cover bg-transparent">
+      <section className="flex flex-col items-center justify-center font-pompiere min-h-[calc(100vh-150px)] -mt-32 scroll-my-1">
         <div>
           <p className="text-2xl mb-3">Hello!</p>
           <p className="text-6xl mb-3">
@@ -13,49 +15,122 @@ export default function Home() {
           </p>
         </div>
       </section>
+
       <section
         id="skills"
         className="scroll-mt-0 min-h-screen scroll-my-1 flex justify-center items-center">
         <div className="w-full flex flex-col justify-center items-center">
-          <h3 className="text-4xl mb-4 text-left">Skillsets</h3>
-          <ol className="mb-5">
-            <h4 className="text-2xl">Languanges</h4>
-            <li>Java</li>
-            <li>Javascript</li>
-            <li>Python</li>
-          </ol>
-          <ol className="mb-5">
-            <h4 className="text-2xl">Languanges</h4>
-            <li>Spring Boot</li>
-            <li>React + Nextjs</li>
-          </ol>
-          <ol className="mb-5">
-            <h4 className="text-2xl">Databases</h4>
-            <li>MySql</li>
-            <li>PostgreSql</li>
-            <li>Elasticsearch</li>
-            <li>Redis</li>
-          </ol>
-          <ol className="mb-5">
-            <h4 className="text-2xl">Cloud Providers</h4>
-            <li>AWS</li>
-            <li>GCP</li>
-          </ol>
-          <ol className="mb-5">
-            <h4 className="text-2xl">Some libraries</h4>
-            <li>React Query</li>
-            <li>Material UI</li>
-          </ol>
+          <h3 className="text-4xl mb-10">Skill Sets</h3>
+          <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
+            <table className="w-full text-lg text-left text-gray-500 dark:text-gray-400 border border-slate-700">
+              <tbody>
+                <tr className="border-b border-b-slate-700">
+                  <td className="px-6 py-4">Langauges</td>
+                  <td className="px-6 py-4">Java, Javascript, Python</td>
+                </tr>
+                <tr className="border-b border-b-slate-700">
+                  <td className="px-6 py-4">Frameworks</td>
+                  <td className="px-6 py-4">
+                    Spring-boot, Express.js, React.js, Next.js
+                  </td>
+                </tr>
+                <tr className="border-b border-b-slate-700">
+                  <td className="px-6 py-4">Databases</td>
+                  <td className="px-6 py-4">
+                    MySQL, PostgreSQL, Redis, Elasticsearch
+                  </td>
+                </tr>
+                <tr className="border-b border-b-slate-700">
+                  <td className="px-6 py-4">Build Tools/Package managers</td>
+                  <td className="px-6 py-4">Maven, NPM, Yarn</td>
+                </tr>
+                <tr className="border-b border-b-slate-700">
+                  <td className="px-6 py-4">Cloud Providers</td>
+                  <td className="px-6 py-4">AWS, GCP</td>
+                </tr>
+                <tr className="border-b border-b-slate-700">
+                  <td className="px-6 py-4">Few Others</td>
+                  <td className="px-6 py-4">
+                    Docker, Git, React Query, Redux, Material-UI, Tailwind CSS
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
-      <section id="contact" className="min-w-full scroll-my-1">
-        <div className="min-w-full flex items-center justify-between">
-          <a href="/">Ofloy</a>
-          <a href="/">Twitter</a>
-          <a href="/">LinkedIn</a>
-          <a href="/">Stackoverflow</a>
-          <a href="/">Github 1</a>
-          <a href="/">Github 2</a>
+
+      <section
+        id="projects"
+        className="scroll-mt-0 min-h-screen scroll-my-1 flex justify-center items-center">
+        <div className="w-full flex flex-col justify-center items-center">
+          <h3 className="text-4xl mb-10">Projects I worked on</h3>
+        </div>
+      </section>
+
+      <section
+        id="resume"
+        className="scroll-mt-0 min-h-screen scroll-my-1 flex justify-center items-center">
+        <div className="w-full flex flex-col justify-center items-center flex-1">
+          <h3 className="text-4xl mb-10">Resume</h3>
+          <iframe src="/resume.pdf" width={"100%"} height={"600px"} />
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        className="scroll-mt-0 min-h-screen scroll-my-1 flex flex-col justify-center">
+        <h3 className="text-4xl mb-10 text-center">Contact Me Via</h3>
+        <div className="w-full flex flex-col justify-between items-center md:flex-row">
+          <a
+            href="https://www.ofloy.com/profile/puspender-tanwardcc"
+            target="_blank"
+            className="hover:scale-125 transition-all mb-5">
+            <Image src="/ofloy_logo.svg" height={150} width={150} alt="Ofloy" />
+          </a>
+          <a
+            href="https://twitter.com/puspendert"
+            target="_blank"
+            className="hover:scale-125 transition-all mb-5">
+            <i className="devicon-twitter-original colored text-4xl"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/puspender/"
+            target="_blank"
+            className="hover:scale-125 transition-all mb-5">
+            <i className="devicon-linkedin-plain colored text-4xl"></i>
+          </a>
+          <a
+            href="https://stackoverflow.com/users/4691230/the-coder"
+            target="_blank"
+            className="hover:scale-125 transition-all mb-5">
+            <Image
+              src="/stack-overflow.png"
+              height={100}
+              width={40}
+              alt="Stackoverflow"
+            />
+          </a>
+          <a
+            href="https://github.com/Puspendert"
+            target="_blank"
+            className="hover:scale-125 transition-all mb-5">
+            <i className="devicon-github-original text-4xl"></i>
+          </a>
+          <a
+            href="https://github.com/PTanwarCS"
+            target="_blank"
+            className="hover:scale-125 transition-all mb-5">
+            <i className="devicon-github-original text-4xl"></i>
+          </a>
+        </div>
+        <div className="text-center">
+          <p className="text-lg text-blue-500">
+            Or email @{" "}
+            <a href="mailto:work.puspender@gmail.com">
+              work.puspender@gmail.com
+            </a>
+          </p>
         </div>
       </section>
     </main>
