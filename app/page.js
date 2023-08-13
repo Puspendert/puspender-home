@@ -81,7 +81,7 @@ export default function Home() {
         id="contact"
         className="scroll-mt-0 min-h-screen scroll-my-1 flex flex-col justify-center">
         <h3 className="text-4xl mb-10 text-center">Contact Me Via</h3>
-        <div className="w-full flex flex-col justify-between items-center md:flex-row">
+        <div className="w-full flex flex-col justify-between items-center [&>a]:my-6 md:flex-row md:[&>a]:my-0">
           <a
             href="https://www.ofloy.com/profile/puspender-tanwardcc"
             target="_blank"
