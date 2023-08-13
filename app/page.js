@@ -22,7 +22,7 @@ export default function Home() {
         <div className="w-full flex flex-col justify-center items-center">
           <h3 className="text-4xl mb-10">Skill Sets</h3>
           <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
-            <table className="w-full text-lg text-left text-gray-500 dark:text-gray-400 border border-slate-700">
+            <table className="w-full text-lg text-left border-slate-700">
               <tbody>
                 <tr className="border-b border-b-slate-700">
                   <td className="px-6 py-4">Langauges</td>

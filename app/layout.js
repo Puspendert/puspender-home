@@ -7,14 +7,14 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Puspender Portfolio",
-  description: "About Puspender Tanwar, a passionate full stack developer",
+  description: "About Puspender Tanwar, a passionate full stack web developer",
 };
 
 function NavLink({ text, href }) {
   return (
     <a
       href={href}
-      className="flex-1 flex justify-center items-center min-h-full text-lg hover:bg-slate-800 hover:text-yellow-300 rounded-sm transition-all">
+      className="flex-1 flex px-2 mx-1 justify-center items-center min-h-full text-lg hover:bg-slate-800 hover:text-yellow-300 rounded-sm transition-all">
       {text}
     </a>
   );
@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
               <Image src="/hiking.svg" height={200} width={120} alt="Icon" />
             </Link>
           </div>
-          <nav className="flex flex-1 justify-between h-10 m-5">
+          <nav className="flex flex-1 justify-between h-10 m-5 flex-col sm:flex-row">
             <NavLink text="Skills" href="#skills" />
             <NavLink text="Projects" href="#projects" />
             <NavLink text="Resume" href="#resume" />
