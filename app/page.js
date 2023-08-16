@@ -2,23 +2,23 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="p-8 bg-wave bg-fixed bg-no-repeat bg-cover bg-transparent">
-      <section className="flex flex-col items-center justify-center font-pompiere min-h-[calc(100vh-150px)] -mt-32 scroll-my-1">
+    <main
+      className={"p-8 bg-wave bg-fixed bg-no-repeat bg-cover bg-transparent"}>
+      <section
+        className={`flex flex-col items-center justify-center min-h-[calc(100vh-50px)] -mt-32 scroll-my-1`}>
         <div>
-          <p className="text-2xl mb-3">Hello!</p>
-          <p className="text-6xl mb-3">
+          <p className="text-3xl mb-3 font-thin">Hello!</p>
+          <p className="text-7xl mb-3">
             I am <span className="text-yellow-300">Puspender Tanwar</span>
           </p>
-          <p className="text-2xl mb-3">
+          <p className="text-3xl mb-3 font-thin">
             A passionate <span className="text-yellow-300">Fullstack</span> Web
             Developer
           </p>
         </div>
       </section>
 
-      <section
-        id="skills"
-        className="scroll-mt-0 min-h-screen scroll-my-1 flex justify-center items-center">
+      <section id="skills" className="scroll-mt-0 min-h-screen scroll-my-1 ">
         <div className="w-full flex flex-col justify-center items-center">
           <h3 className="text-4xl mb-10">Skill Sets</h3>
           <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
@@ -56,6 +56,27 @@ export default function Home() {
                 </tr>
               </tbody>
             </table>
+          </div>
+        </div>
+        <div className="flex flex-col items-center mt-12">
+          <div className="max-w-4xl mb-8 flex flex-col items-center">
+            <p className="mb-2 text-2xl border-b border-b-gray-400">
+              What to expect from me?
+            </p>
+            <p className="text-lg text-center">
+              Well architected, well tested, developer & user friendly, quality
+              solutions.
+            </p>
+          </div>
+          <div className="max-w-4xl flex flex-col items-center">
+            <p className="mb-2 text-2xl border-b border-b-gray-400">
+              What not to expect from me?
+            </p>
+            <p className="text-lg text-center">
+              Your champion coder who can provide solutions to the top
+              competitive programming questions from leetcode or similar
+              platforms.
+            </p>
           </div>
         </div>
       </section>
@@ -124,7 +145,7 @@ export default function Home() {
             <i className="devicon-github-original text-4xl"></i>
           </a>
         </div>
-        <div className="text-center">
+        <div className="text-center mt-6">
           <p className="text-lg text-blue-500">
             Or email @{" "}
             <a href="mailto:work.puspender@gmail.com">
