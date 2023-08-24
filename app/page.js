@@ -91,7 +91,7 @@ export default function Home() {
           <h3 className="text-4xl mb-10">Work experience</h3>
         </div>
 
-        <ul class="space-y-6 list-disc list-inside">
+        <ul className="space-y-6 list-disc list-inside">
           <li>
             <a
               href="http://www.ofloy.com"
@@ -101,7 +101,7 @@ export default function Home() {
               Ofloy.com
             </a>{" "}
             <span className="text-gray-300">(Co-founder and developer)</span>
-            <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+            <ul className="pl-5 mt-2 space-y-1 list-disc list-inside">
               <p>
                 Ofloy.com is a social media platform connecting startups, VCs,
                 investors, founders, mentors and much more. We call it digital
@@ -129,7 +129,7 @@ export default function Home() {
           <li>
             <span className="text-xl">Cloudsufi </span>
             <span className="text-gray-300"> (Senior Fullstack Developer)</span>
-            <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+            <ul className="pl-5 mt-2 space-y-1 list-disc list-inside">
               <li>
                 Portals for USA Pharma client: created multiple web portals:
                 Patient Portal, Nurse Portal, Audit Portal, Assessment Portal,
@@ -142,7 +142,7 @@ export default function Home() {
           <li>
             <span className="text-xl">BusinessAlligators.com</span>
             <span className="text-gray-300"> (Technical cofounder)</span>
-            <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+            <ul className="pl-5 mt-2 space-y-1 list-disc list-inside">
               <li>
                 Handled pre-sales and web apps development for clients with
                 domain in social media and e-commerce.
@@ -152,7 +152,7 @@ export default function Home() {
           <li>
             <span className="text-xl">Bristlecone</span>
             <span className="text-gray-300"> (Associate Consultant)</span>
-            <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+            <ul className="pl-5 mt-2 space-y-1 list-disc list-inside">
               <li>
                 ODI Cloud Adapters: Contributed to creating and maintaining
                 multiple integration adapters for different domains like

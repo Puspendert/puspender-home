@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
           href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
       </head>
       <body className={inter.className}>
-        <header className="flex">
+        <header className="flex xl:px-80">
           <div className="flex-auto font-mono italic space-x-10 m-4 font-bold">
             <Link href="/">
               <Image src="/hiking.svg" height={200} width={120} alt="Icon" />
@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
             <NavLink text="Contact" href="#contact" />
           </nav>
         </header>
-        <div>{children}</div>
+        <div className="xl:px-80">{children}</div>
         <footer className="bg-transparent p-2">
           <p className="text-sm italic">
             Puspender Tanwar © All rights are reserved | 2023
