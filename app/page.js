@@ -11,9 +11,11 @@ export default function Home() {
           <p className="text-7xl mb-3">
             I am <span className="text-yellow-300">Puspender Tanwar</span>
           </p>
-          <p className="text-3xl mb-3 font-thin">
-            A passionate <span className="text-yellow-300">Fullstack</span> Web
-            Developer
+          <p className="text-xl mb-3 font-thin">
+            Innovative Full Stack Developer and tech startup <b>Co-founder </b>
+            having expertise in building products from scratch. Passionate
+            Learner & Web Security Enthusiast. Effective Team Leader &
+            Collaborative Player
           </p>
         </div>
       </section>

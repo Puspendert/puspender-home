@@ -6,8 +6,9 @@ import Image from "next/image";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Puspender Portfolio",
-  description: "About Puspender Tanwar, a passionate full stack web developer",
+  title: "Puspender Tanwar's Portfolio",
+  description:
+    "Innovative Full Stack Developer and tech startup Co-founder having expertise in building products from scratch. Passionate Learner & Web Security Enthusiast. Effective Team Leader & Collaborative Player",
 };
 
 function NavLink({ text, href }) {
