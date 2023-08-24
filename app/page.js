@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 
 export default function Home() {
@@ -85,10 +86,82 @@ export default function Home() {
 
       <section
         id="projects"
-        className="scroll-mt-0 min-h-screen scroll-my-1 flex justify-center items-center">
+        className="scroll-mt-0 min-h-screen scroll-my-1 flex flex-col justify-center items-center my-40">
         <div className="w-full flex flex-col justify-center items-center">
-          <h3 className="text-4xl mb-10">Projects I worked on</h3>
+          <h3 className="text-4xl mb-10">Work experience</h3>
         </div>
+
+        <ul class="space-y-6 list-disc list-inside">
+          <li>
+            <a
+              href="http://www.ofloy.com"
+              target="_blank"
+              className="underline text-xl"
+              rel="noopener noreferrer">
+              Ofloy.com
+            </a>{" "}
+            <span className="text-gray-300">(Co-founder and developer)</span>
+            <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+              <p>
+                Ofloy.com is a social media platform connecting startups, VCs,
+                investors, founders, mentors and much more. We call it digital
+                Silicon on internet. <br /> Built this platform from scratch.
+              </p>
+              <p>Some Features:</p>
+              <li>
+                Community blogging. Post status, ask questions, post answers,
+                write articles. Basic features like vote, comment, bookmark etc.
+              </li>
+              <li>Connect follow with other members</li>
+              <li>Personal chats</li>
+              <li>Notifications</li>
+              <li>
+                Search for users, companies, startups, co-founders, investors
+                with some advance filters
+              </li>
+              <li>
+                Raise funds or invest in startups. Complete investment profile
+                of a startup
+              </li>
+              <li>Feedbacks, raise bugs, or feature recommendation.</li>
+            </ul>
+          </li>
+          <li>
+            <span className="text-xl">Cloudsufi </span>
+            <span className="text-gray-300"> (Senior Fullstack Developer)</span>
+            <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+              <li>
+                Portals for USA Pharma client: created multiple web portals:
+                Patient Portal, Nurse Portal, Audit Portal, Assessment Portal,
+                Admin portal. Technologies: Spring-Boot, PostgreSQL, React.js +
+                Redux/React-Query, Ping4Customers, GitHub Actions, GCP, Redis,
+                Material-UI.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span className="text-xl">BusinessAlligators.com</span>
+            <span className="text-gray-300"> (Technical cofounder)</span>
+            <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+              <li>
+                Handled pre-sales and web apps development for clients with
+                domain in social media and e-commerce.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span className="text-xl">Bristlecone</span>
+            <span className="text-gray-300"> (Associate Consultant)</span>
+            <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+              <li>
+                ODI Cloud Adapters: Contributed to creating and maintaining
+                multiple integration adapters for different domains like
+                Salesforce, SuccessFactors, ServiceNow, etc. Platform-based on
+                Java with ODI API and the underlining target domains.
+              </li>
+            </ul>
+          </li>
+        </ul>
       </section>
 
       <section
