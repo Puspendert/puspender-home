@@ -26,7 +26,7 @@ const Header = () => {
                             <Link
                                 href="/blogs"
                                 className={`text-lg hover:cursor-pointer ${
-                                    isActive("/blogs") ? "font-semibold" : "font-medium"
+                                    isActive("/blogs") ? "font-bold underline underline-offset-8" : "font-medium"
                                 }`}
                             >
                                 blogs
@@ -34,7 +34,7 @@ const Header = () => {
                             <Link
                                 href="/resume"
                                 className={`text-lg hover:cursor-pointer ${
-                                    isActive("/resume") ? "font-semibold" : "font-medium"
+                                    isActive("/resume") ? "font-bold underline underline-offset-8" : "font-medium"
                                 }`}
                             >
                                 resume
