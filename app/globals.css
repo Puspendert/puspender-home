@@ -290,6 +290,11 @@ blockquote p:first-of-type::before {
   @apply mb-8 -ml-6 -mr-6 rounded-md;
 }
 
+.no-blogcard-underline,
+.no-blogcard-underline:hover {
+  border-bottom: none !important;
+}
+
 @media (min-width: 1440px) {
   p {
     font-size: 17px;
