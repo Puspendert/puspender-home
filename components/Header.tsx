@@ -24,6 +24,14 @@ const Header = () => {
                     <div className="flex items-center gap-6 h-full">
                         <div className="flex items-center gap-x-4 sm:gap-x-6 z-[1] relative justify-end py-5 h-full">
                             <Link
+                                href="/tech-stack"
+                                className={`text-lg hover:cursor-pointer ${
+                                    isActive("/tech-stack") ? "font-bold underline underline-offset-8" : "font-medium"
+                                }`}
+                            >
+                                tech-stack
+                            </Link>
+                            <Link
                                 href="/blogs"
                                 className={`text-lg hover:cursor-pointer ${
                                     isActive("/blogs") ? "font-bold underline underline-offset-8" : "font-medium"

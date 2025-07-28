@@ -1,6 +1,6 @@
 import React from 'react';
 
-function CurrentHustle(props) {
+function CurrentHustle() {
   return (
     <div className="relative rounded-lg bg-gradient-to-br from-[#0a1023] via-[#10172a] to-[#1a1333] shadow-xl border border-[#0a1023] p-4 flex items-center gap-4 overflow-hidden">
       <div className="absolute -top-6 -left-6 w-24 h-24 bg-[#0a1023]/80 rounded-full blur-2xl opacity-90 pointer-events-none"></div>
@@ -21,7 +21,7 @@ function CurrentHustle(props) {
           </li>
           <li className="flex items-center gap-2">
             <span className="inline-block w-2 h-2 bg-purple-200 rounded-full"></span>
-            <span className="font-semibold">Distributed databases: Cassandra</span>
+            <span className="font-semibold">Distributed databases | Cassandra</span>
           </li>
           <li className="flex items-center gap-2">
             <span className="inline-block w-2 h-2 bg-purple-200 rounded-full"></span>

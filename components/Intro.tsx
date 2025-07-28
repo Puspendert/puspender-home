@@ -49,6 +49,7 @@ const Intro = () => {
                     Here, I share my insights on{" "}
                     <span className="text-primary">quality code</span>,{" "}
                     <span className="text-primary">databases</span>,{" "}
+                    <span className="text-primary">distributed systems</span>,{" "}
                     <span className="text-primary">web security</span>,{" "}
                     <span className="text-primary">cost effective cloud</span>, and all things{" "}
                     <span className="text-primary">tech</span>.
