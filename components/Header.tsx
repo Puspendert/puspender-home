@@ -17,7 +17,7 @@ const Header = () => {
                 <div className="flex justify-between items-center relative h-full">
                     <Link
                         href="/"
-                        className="font-thicccboi text-[26px] leading-7 font-bold md:text-[32px] md:leading-10 py-5 h-full border-b-0 hover:border-b-0 w-28 md:w-fit"
+                        className="font-thicccboi text-[26px] leading-7 font-bold md:text-[32px] md:leading-10 py-5 h-full border-b-0 hover:border-b-0"
                     >
                         Puspender Tanwar
                     </Link>

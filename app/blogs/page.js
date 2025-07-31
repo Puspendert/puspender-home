@@ -43,7 +43,7 @@ const Page = () => {
       <div>
         <section
           id="blogs"
-          className="min-h-screen scroll-my-1 flex pt-10 pl-20 pr-20 mb-10">
+          className="max-w-3xl mx-auto px-4 py-10 min-h-screen">
           <div className="w-full flex flex-col flex-1 max-w-3xl mx-auto">
             <h1 className="text-3xl font-bold mb-4">Blogs</h1>
             <div className="flex flex-col gap-6">
