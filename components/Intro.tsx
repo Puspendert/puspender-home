@@ -1,5 +1,8 @@
+"use client";
 import Image from "next/image";
 import {GithubIcon, LinkedinIcon, OfloyIcon, StackoverflowIcon, XIcon} from "./icons";
+import DSAMagicButton from "./DSAMagicButton";
+import React from "react";
 
 const Intro = () => {
     const socialLinks = [
@@ -55,9 +58,11 @@ const Intro = () => {
                     <span className="text-primary">tech</span>.
                 </p>
             </div>
-
-            <div className={"mt-12"}>
-                <p className="text-muted-foreground">Feel free to connect @</p>
+            <div className="my-8">
+                <DSAMagicButton/>
+            </div>
+            <div>
+                <p className="text-muted-foreground mb-2">Feel free to connect @</p>
                 <div className="flex gap-6 md:self-start ">
                     {socialLinks.map((social) => (
                         <a
